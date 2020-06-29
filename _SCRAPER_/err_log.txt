@@ -44,4 +44,3 @@ Error occoured by trial to scrape URL: nan
 Error occoured by trial to scrape URL: nan
 Error occoured by trial to scrape URL: https://www.amazon.de/LEGO-Marvel-Super-Heroes-Thanos/dp/B075T1Q2YS
 Error occoured by trial to scrape URL: nan
-Error occoured by trial to scrape URL: nan
