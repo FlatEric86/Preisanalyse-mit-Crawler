@@ -23,7 +23,7 @@ def main():
     ERR_indices = []
 
     with open('./prices.csv', 'w') as fout:
-        csv_sep = ';'
+        csv_sep = ','
 
         # header of url data data frame 
         url_data_header = df.columns.values
