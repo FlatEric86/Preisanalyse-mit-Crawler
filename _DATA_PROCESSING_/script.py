@@ -129,7 +129,7 @@ for title, data_dict in zip(['Mean Price Ratio',
 
     i += 1
 
-plt.savefig('./result_visualization.png', dpi=300)
+plt.savefig('./result_visualization.png')
 #plt.show()
 
 
