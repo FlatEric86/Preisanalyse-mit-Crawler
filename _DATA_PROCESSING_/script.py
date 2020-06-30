@@ -64,7 +64,7 @@ df_out = pd.concat([df_out, price_difference.reindex(df_out.index)], axis=1)
 #print(df_out.head())
 
 # write the results into a CSV file on drive
-df_out.to_csv('./results.csv', sep=';', index=False, encoding='utf-8-sig')
+df_out.to_csv('./results.csv', sep=',', index=False, encoding='utf-8-sig')
 
 ################################ VISUALIZATION ################################
 

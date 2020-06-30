@@ -1,61 +1,61 @@
-﻿article_name;price ratio [store_0/store_2];absolute price difference [€]
-LEGO 42092 Technic ;0.745676500508647;7.5
-Lego 41369 Friends Mias Haus mit Pferd;0.8609530004878841;8.55
-LEGO 42099 Technic 4x4 X-treme Off-Roader;;
-LEGO 42098 Technic - Autotransporter;0.7666511100740049;35.0
-LEGO 42105 Technic Katamaran ;;
-LEGO 76153 Marvel Super Heroes Avengers Helicarrier;;
-LEGO 41425 Friends Olivias Blumengarten;0.8587987355110643;1.34
-LEGO 41395 Friends Freundschaftsbus;0.8534792806880375;9.37
-LEGO 41428 Friends Strandhaus mit Tretboot;0.8780795957043588;5.79
-LEGO 41378 Friends Rettungs-U-Boot für Delfine;0.769961489088575;8.96
-LEGO 75979 Harry Potter Hedwig;0.8217270194986073;7.04
-LEGO 75968 Harry Potter Ligusterweg 4;0.8800606520090978;7.91
-LEGO 76153 Marvel Super Heroes Avengers Helicarrier;;
-LEGO 76124 Marvel Super Heroes War Machine Buster;0.7596297402209615;8.05
-LEGO 41393 Friends Die große Backshow;0.7232349165596919;10.78
-LEGO 41380 Friends Leuchtturm mit Flutlicht;;
-LEGO 41391 Friends Friseursalon von Heartlake City;0.8339832869080781;2.98
-LEGO 41375 Friends Vergnügungspark von Heartlake City;0.8292432663531424;19.97
-LEGO 41430 Friends Wasserpark von Heartlake City;0.8524428899333261;13.5
-LEGO 41127 Friends Spielspaß im Freizeitpark;;
-LEGO 41311 Friends Heartlake Pizzeria;;
-LEGO 42111 Technic Dom's Dodge Charger;;
-LEGO 42100 Technic Liebherr Bagger R 9800;0.7333274072757172;120.0
-LEGO 42110 Technic Land Rover Defender;0.9453491918267766;8.96
-LEGO 42096 Technic Porsche 911 RSR;0.8591951861602107;18.72
-LEGO 42108 Technic Kran-LKW;0.799978376040653;18.5
-LEGO 75956 Harry Potter Quidditch Turnier;;
-LEGO 75957 Harry Potter Der Fahrende Ritter;0.7594327677893137;9.5
-LEGO 75958 Harry Potter Beauxbatons Kutsche;0.7999578858707096;9.5
-LEGO 75950 Harry Potter Aragogs Versteck;1.9623824451410659;15.35
-LEGO 75955 Harry Potter Hogwarts Express;;
-LEGO 75945 Harry Potter Expecto Patronum;;
-LEGO 76152 Marvel Lokis Rache;0.8866845397676496;6.34
-LEGO 76020 Marvel Der große Ausbruch;;
-LEGO 76130 Marvel Stark Jet und die Drohne Attack;;
-LEGO 76125 Marvel Super Heroes Iron Mans Werkstatt;0.82969904487295;9.45
-LEGO 10847 Duplo Zahlenzug;;
-LEGO 10863 Duplo Meine erste Steinebox mit Ziehtieren;0.7505119453924914;7.31
-LEGO 10909 Duplo Mein erster Bauspaß;;
-LEGO 10840 Duplo Großer Jahrmarkt;0.8444601270289344;11.02
-LEGO 10914 Duplo Deluxe Steinebox Bauset mit Aufbewahrungsbox;0.8210149505158981;8.5
-LEGO 10875 Duplo Güterzug Kinderspielzeug;;
-LEGO 42083 Technic Bugatti Chiron;0.8974754783727288;31.88
-LEGO 42092 Technic Rettungshubschrauber;0.745676500508647;7.5
-LEGO 42088 Technic Hubarbeitsbühne;0.9411071849234394;0.5
-LEGO 42093 Technic Chevrolet Corvette ZR1;0.8249562390597649;7.0
-LEGO 41429 Friends Heartlake City Flugzeug;0.8853792025019546;7.33
-LEGO 41426 Friends Heartlake City Waffelhaus;0.9058495821727021;1.69
-LEGO 41351 Friends Tuning-Werkstatt;0.6119029757439359;15.52
-LEGO 41350 Friends Autowaschanlage;2.000333444481494;30.0
-LEGO 41347 Friends Heartlake City Resort;;
-LEGO 41394 Friends Krankenhaus von Heartlake City;;
-LEGO 41392 Friends Camping in Heartlake City;;
-LEGO 76144 Marvel Hulk Helikopter Rettung;0.8228775692582663;9.91
-LEGO 76123 Marvel Captain America: Outrider-Attacke;;
-LEGO 76103 Marvel Corvus Glaives Attacke;;
-LEGO 76101 Marvel Super Heroes Outrider Dropship-Angriff;;
-LEGO 76107 Marvel Super Heroes Thanos: Das ultimative Gefecht;;
-LEGO 75946 Harry Potter Das Trimagische Turnier: der ungarische Hornschwanz;0.7722460658082975;7.96
-LEGO 75966 Harry Potter Der Raum der Wünsche auf Schloss Hogwart;0.9159519725557462;1.47
+﻿article_name,price ratio [store_0/store_2],absolute price difference [€]
+LEGO 42092 Technic ,0.745676500508647,7.5
+Lego 41369 Friends Mias Haus mit Pferd,0.8609530004878841,8.55
+LEGO 42099 Technic 4x4 X-treme Off-Roader,,
+LEGO 42098 Technic - Autotransporter,0.7666511100740049,35.0
+LEGO 42105 Technic Katamaran ,,
+LEGO 76153 Marvel Super Heroes Avengers Helicarrier,,
+LEGO 41425 Friends Olivias Blumengarten,0.8587987355110643,1.34
+LEGO 41395 Friends Freundschaftsbus,0.8534792806880375,9.37
+LEGO 41428 Friends Strandhaus mit Tretboot,0.8780795957043588,5.79
+LEGO 41378 Friends Rettungs-U-Boot für Delfine,0.769961489088575,8.96
+LEGO 75979 Harry Potter Hedwig,0.8217270194986073,7.04
+LEGO 75968 Harry Potter Ligusterweg 4,0.8800606520090978,7.91
+LEGO 76153 Marvel Super Heroes Avengers Helicarrier,,
+LEGO 76124 Marvel Super Heroes War Machine Buster,0.7596297402209615,8.05
+LEGO 41393 Friends Die große Backshow,0.7232349165596919,10.78
+LEGO 41380 Friends Leuchtturm mit Flutlicht,,
+LEGO 41391 Friends Friseursalon von Heartlake City,0.8339832869080781,2.98
+LEGO 41375 Friends Vergnügungspark von Heartlake City,0.8292432663531424,19.97
+LEGO 41430 Friends Wasserpark von Heartlake City,0.8524428899333261,13.5
+LEGO 41127 Friends Spielspaß im Freizeitpark,,
+LEGO 41311 Friends Heartlake Pizzeria,,
+LEGO 42111 Technic Dom's Dodge Charger,,
+LEGO 42100 Technic Liebherr Bagger R 9800,0.7333274072757172,120.0
+LEGO 42110 Technic Land Rover Defender,0.9453491918267766,8.96
+LEGO 42096 Technic Porsche 911 RSR,0.8591951861602107,18.72
+LEGO 42108 Technic Kran-LKW,0.799978376040653,18.5
+LEGO 75956 Harry Potter Quidditch Turnier,,
+LEGO 75957 Harry Potter Der Fahrende Ritter,0.7594327677893137,9.5
+LEGO 75958 Harry Potter Beauxbatons Kutsche,0.7999578858707096,9.5
+LEGO 75950 Harry Potter Aragogs Versteck,1.9623824451410659,15.35
+LEGO 75955 Harry Potter Hogwarts Express,,
+LEGO 75945 Harry Potter Expecto Patronum,,
+LEGO 76152 Marvel Lokis Rache,0.8866845397676496,6.34
+LEGO 76020 Marvel Der große Ausbruch,,
+LEGO 76130 Marvel Stark Jet und die Drohne Attack,,
+LEGO 76125 Marvel Super Heroes Iron Mans Werkstatt,0.82969904487295,9.45
+LEGO 10847 Duplo Zahlenzug,,
+LEGO 10863 Duplo Meine erste Steinebox mit Ziehtieren,0.7505119453924914,7.31
+LEGO 10909 Duplo Mein erster Bauspaß,,
+LEGO 10840 Duplo Großer Jahrmarkt,0.8444601270289344,11.02
+LEGO 10914 Duplo Deluxe Steinebox Bauset mit Aufbewahrungsbox,0.8210149505158981,8.5
+LEGO 10875 Duplo Güterzug Kinderspielzeug,,
+LEGO 42083 Technic Bugatti Chiron,0.8974754783727288,31.88
+LEGO 42092 Technic Rettungshubschrauber,0.745676500508647,7.5
+LEGO 42088 Technic Hubarbeitsbühne,0.9411071849234394,0.5
+LEGO 42093 Technic Chevrolet Corvette ZR1,0.8249562390597649,7.0
+LEGO 41429 Friends Heartlake City Flugzeug,0.8853792025019546,7.33
+LEGO 41426 Friends Heartlake City Waffelhaus,0.9058495821727021,1.69
+LEGO 41351 Friends Tuning-Werkstatt,0.6119029757439359,15.52
+LEGO 41350 Friends Autowaschanlage,2.000333444481494,30.0
+LEGO 41347 Friends Heartlake City Resort,,
+LEGO 41394 Friends Krankenhaus von Heartlake City,,
+LEGO 41392 Friends Camping in Heartlake City,,
+LEGO 76144 Marvel Hulk Helikopter Rettung,0.8228775692582663,9.91
+LEGO 76123 Marvel Captain America: Outrider-Attacke,,
+LEGO 76103 Marvel Corvus Glaives Attacke,,
+LEGO 76101 Marvel Super Heroes Outrider Dropship-Angriff,,
+LEGO 76107 Marvel Super Heroes Thanos: Das ultimative Gefecht,,
+LEGO 75946 Harry Potter Das Trimagische Turnier: der ungarische Hornschwanz,0.7722460658082975,7.96
+LEGO 75966 Harry Potter Der Raum der Wünsche auf Schloss Hogwart,0.9159519725557462,1.47
