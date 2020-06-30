@@ -16,7 +16,7 @@ price_ratio      = df['store_0'] / df['store_2']
 price_ratio.name = 'price ratio [store_0/store_2]'
 
 # absolute price difference of store_0 (Amazon) and store_2 (Toys For Fun)
-price_difference = abs(df['store_0'] - df['store_2'])
+price_difference = round(abs(df['store_0'] - df['store_2']),2)
 price_difference.name = 'absolute price difference [€]'
 
 
