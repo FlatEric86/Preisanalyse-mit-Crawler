@@ -17,7 +17,7 @@ price_ratio.name = 'price ratio [store_0/store_2]'
 
 # absolute price difference of store_0 (Amazon) and store_2 (Toys For Fun)
 price_difference = abs(df['store_0'] - df['store_2'])
-price_difference.name = 'absolute price difference'
+price_difference.name = 'absolute price difference [€]'
 
 
 
@@ -57,15 +57,14 @@ mean_price_diff   = {key:np.nanmean(mean_price_diff[key]) for key in mean_price_
 
 # do concatenate the new columns price ratio and absolut price difference to
 # the dataframe as new dataframe df_out
-df_out = pd.concat([df, price_ratio.reindex(df.index)], axis=1)
+df_out = pd.concat([df['article_name'], price_ratio.reindex(df.index)], axis=1)
 df_out = pd.concat([df_out, price_difference.reindex(df_out.index)], axis=1)
 
 
+#print(df_out.head())
 
-
-
-
-
+# write the results into a CSV file on drive
+df_out.to_csv('./results.csv', sep=';', index=False, encoding='utf-8-sig')
 
 ################################ VISUALIZATION ################################
 
