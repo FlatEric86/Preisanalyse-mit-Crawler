@@ -1,3 +1,3 @@
 To avoid that the web server firewall blockes html requests while debugging the scraper, it could be a cool idea
-to load the html document from a specific web store one time and place it on a apache web server on a local virtual machine to simulate 
+to load the html document from a specific web store once and place it on a apache web server on a local virtual machine to simulate 
 web server requests.
