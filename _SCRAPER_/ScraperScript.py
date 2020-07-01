@@ -1,5 +1,5 @@
 import pandas as pd
-import scraper_class
+import ScraperClass as scraper_class
 import time as t
 import random as rand
 import sklearn
@@ -53,7 +53,7 @@ def main():
                 try:
                     price = float(scraper_obj.parse_n_select())
                 except Exception as e:
-                    print(e)
+                    #print(e)
                     price = 'N/A'
                     ERR_indices.append((row_index, col_index))
                     #continue
@@ -85,7 +85,8 @@ def main():
             if ERR_indices != []:
                 with open('./err_log.txt', 'w') as fout_err_report:
                     for index_tuple in ERR_indices:
-                        fout_err_report.write('Error occoured by trial to scrape URL: ' + str(df.loc[index_tuple[0]][index_tuple[1]]) + '\n')
+                        if str(df.loc[index_tuple[0]][index_tuple[1]]) != 'nan':
+                            fout_err_report.write('Error occoured by trial to scrape URL: ' + str(df.loc[index_tuple[0]][index_tuple[1]]) + '\n')
 
 
 
