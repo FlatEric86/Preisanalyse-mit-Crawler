@@ -146,7 +146,7 @@ def bar_plot_2(ax_obj):
     labels = [sub_brands[i].title() for i in list(resorted_indices)]
 
     # cosmetics
-    ax_obj.set_title('Prices in Terms of Subbrand and Store')
+    ax_obj.set_title('Mean Prices in Terms of Subbrand and Store')
     ax_obj.set_ylabel('Mean Price [€]')
     ax_obj.set_xticks(list(range(len(sub_brands))))
     ax_obj.set_xticklabels([label.title() for label in labels])
