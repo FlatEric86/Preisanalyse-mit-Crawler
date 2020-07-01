@@ -141,8 +141,8 @@ def bar_plot_2(ax_obj):
     resorted_indices = pd_series.sort_values().index
     
    
-    rects1 = ax_obj.bar(np.arange(len(sub_brands)) - width/2, mean_prices_store_0.reindex(resorted_indices), width, label='Amazon', alpha=0.8)
-    rects2 = ax_obj.bar(np.arange(len(sub_brands)) + width/2, mean_prices_store_2.reindex(resorted_indices), width,label='Toys for Fun', alpha=0.8) 
+    ax_obj.bar(np.arange(len(sub_brands)) - width/2, mean_prices_store_0.reindex(resorted_indices), width, label='Amazon', alpha=0.8)
+    ax_obj.bar(np.arange(len(sub_brands)) + width/2, mean_prices_store_2.reindex(resorted_indices), width,label='Toys for Fun', alpha=0.8) 
     labels = [sub_brands[i].title() for i in list(resorted_indices)]
 
     # cosmetics
@@ -153,15 +153,46 @@ def bar_plot_2(ax_obj):
     ax_obj.legend()
 
 
+
+def box_plot(ax_obj):
+     
+    width = 0.25
+    
+
+    # both price data column filtered by nan to avoid runtime problems at using boxplot function
+    all_data = [
+        df['store_0'][~np.isnan(df['store_0'])],
+        df['store_2'][~np.isnan(df['store_2'])],
+
+    ]
+
+
+
+
+    # scatter plot of the 
+
+
+    # cosmetics
+    ax_obj.set_title('Price Ranges of the two Stores')
+    ax_obj.set_ylabel('Price [€]')
+    ax_obj.boxplot(all_data, notch=True, sym="o", labels=['Amazon', 'Toys for Fun'])
+    #ax_obj.legend()
+
+
+
+
+
+
 fig = plt.subplots(squeeze=False, figsize=(14, 8))
 ax0 = plt.subplot2grid((2, 2), (0, 0))
 ax1 = plt.subplot2grid((2, 2), (0, 1))
 ax2 = plt.subplot2grid((2, 2), (1, 0))
+ax3 = plt.subplot2grid((2, 2), (1, 1))
 
 bar_plot_0(ax0)
 bar_plot_1(ax1)
 bar_plot_2(ax2)
-
+box_plot(ax3)
 
 plt.savefig('./result_visualization.png')
 
