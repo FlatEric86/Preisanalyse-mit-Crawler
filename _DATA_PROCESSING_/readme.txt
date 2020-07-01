@@ -17,3 +17,6 @@ The first column represents the item title again.
 The second one represents the ratio between the price of store_0 and store_2 (store_1 is ignored because it's not relevant).
 The third one represents the absolute price difference between store_0 and store_2.
 
+
+
+The Scrip <script_imp.py> gots some better improvements and bugfixes than the first script.
