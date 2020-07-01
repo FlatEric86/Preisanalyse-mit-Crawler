@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+
 # to get the fancy ggplot-style 
 plt.style.use('ggplot')
 
@@ -103,25 +105,28 @@ def bar_plot(ax_obj, data_dict, title, y_axes_label, sub_y_label=None):
 
 
 
-fig, ax_obj = plt.subplots(1,2, figsize=(12, 4))
+fig, ax_obj = plt.subplots(1,2, figsize=(14, 6))
 
 i = 0
 for title, data_dict in zip(['Mean Price Ratio', 
                              'Absolute Price Difference'
                              ], 
                              [mean_price_ratios, 
-                             mean_price_diff
-                             ]
+                             mean_price_diff                            
+                             ],
+
                         ):
     if i == 1:                   
         sub_y_label = '[€]'
+        sub_title   = ''
     else:
         sub_y_label = None
+        sub_title   = sub_title   = '$_{Amazon\ /\ Toys\ for\ Fun}$'
         
     bar_plot(
         ax_obj[i], 
         data_dict, 
-        title= title + '\nin terms of Subbrand', 
+        title=title + '\nin terms of Subbrand\n' + sub_title, 
         y_axes_label=title, 
         sub_y_label=sub_y_label
     )
@@ -129,8 +134,8 @@ for title, data_dict in zip(['Mean Price Ratio',
 
     i += 1
 
-plt.savefig('./result_visualization.png', dpi=200)
-#plt.show()
+plt.savefig('./result_visualization.png')
+plt.show()
 
 
 
